@@ -1,7 +1,7 @@
 'use client';
 
 import { useState } from 'react';
-import { useRouter } from 'next/navigation';
+import { useRouter, useParams } from 'next/navigation';
 import Link from 'next/link';
 import {
   ArrowRight,
@@ -45,8 +45,9 @@ const STEPS = [
   { label: 'Review & Submit', icon: Send },
 ];
 
-export default function ApplyWizardPage({ params }: { params: { schemeCode: string } }) {
+export default function ApplyWizardPage() {
   const router = useRouter();
+  const params = useParams();
   const schemeCode = params.schemeCode as SchemeCode;
   const scheme = getScheme(schemeCode);
   const [step, setStep] = useState(0);
