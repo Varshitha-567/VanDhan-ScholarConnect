@@ -28,7 +28,6 @@ The project aims to make scholarship information more accessible and simplify th
 - [Application Workflow](#-application-workflow)
 - [Getting Started](#-getting-started)
 - [Project Structure](#-project-structure)
-- [Demo Limitations](#-demo-limitations)
 - [Future Enhancements](#-future-enhancements)
 - [Contributing](#-contributing)
 - [Author](#-author)
@@ -148,16 +147,6 @@ VanDhan-ScholarConnect/
 ├── .gitignore           # Excluded files
 └── README.md            # Project documentation
 ```
-
-## ⚠️ Demo Limitations
-
-This repository currently represents a frontend-focused prototype.
-
-- Scholarship data may be static or locally defined.
-- Authentication based on browser storage is intended for demonstration only.
-- A production database and secure backend are not included in the current frontend-only implementation.
-- Real document verification, role-based authorization, and official scholarship integrations require additional development.
-- Do not enter sensitive personal or financial information into the demo.
 
 ## 🔮 Future Enhancements
 
