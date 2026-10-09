@@ -59,8 +59,6 @@ Build a unified scholarship portal that improves access to scholarship informati
 - **Demo Authentication:** Demonstrate the sign-in experience using browser-side storage.
 - **Deployed Prototype:** Access the application through the hosted demo.
 
-> Note: Features and data availability depend on the current prototype implementation. Demo authentication is not production-grade authentication.
-
 ## 🛠️ Technology Stack
 
 | Technology | Purpose |
@@ -70,9 +68,7 @@ Build a unified scholarship portal that improves access to scholarship informati
 | TypeScript / JavaScript | Application development |
 | CSS / Tailwind CSS, if configured | Interface styling |
 | Vercel | Application hosting and deployment |
-| Browser localStorage | Demo-only client-side state |
 
-Check the actual project dependencies and configuration before retaining every technology listed above.
 
 ## 🔄 Application Workflow
 
@@ -81,8 +77,6 @@ Check the actual project dependencies and configuration before retaining every t
 3. Explore scholarship listings and available details.
 4. Navigate through the application workflow.
 5. Review the prototype's dashboard and interface.
-
-The current implementation is a frontend prototype. Actual application submission, government verification, and scholarship disbursement must not be assumed to be operational.
 
 ## 🚀 Getting Started
 
@@ -150,7 +144,6 @@ VanDhan-ScholarConnect/
 
 ## 🔮 Future Enhancements
 
-- Secure backend APIs and database integration.
 - Verified student and administrator accounts.
 - Role-based access control for students and scholarship administrators.
 - Scholarship eligibility matching and personalized recommendations.
